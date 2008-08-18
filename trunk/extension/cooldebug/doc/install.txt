@@ -1,0 +1,14 @@
+Do the normal eZ extension install.
+
+
+Adjust the settings in freemind.ini
+Adjust the flashoutput in 
+
+extension/freemind/design/freemind/templates/node/view/sitemapfolder.tpl
+
+use of str_replace:
+{str_replace($search,$replace,$subject)}
+Activate Flash and JavaScript in your bowser and
+go to http://example.com/<index.php or not>/<siteaccess>/content/view/sitemapfolder/<node_id>
+
+and enjoy.
